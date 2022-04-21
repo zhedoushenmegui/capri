@@ -1,0 +1,114 @@
+.nowrap {
+    white-space: nowrap !important;
+}
+
+.capri-tag {
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap !important;
+}
+
+.capri-tag-normal {
+    background-color: #00CC66;
+}
+
+.capri-tag-abnormal {
+    background-color: #FF0033;
+}
+
+.capri-tag-simple {
+    background-color: #383838;
+}
+
+.capri-tag-primary {
+    background-color: #0066CC;
+}
+
+
+#capriMain {
+    background-color: #f4f4f4
+}
+
+.large input.el-input__inner {
+    max-width: 400px;
+    width: 350px;
+}
+
+
+.el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+}
+
+
+body > .el-container {
+    margin-bottom: 40px;
+}
+
+.el-container:nth-child(5) .el-aside,
+.el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+}
+
+.el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+}
+
+/**/
+.el-drawer {
+    overflow: auto !important;
+}
+
+.el-container .el-menu-item.is-active {
+    background-color: whitesmoke;
+}
+
+
+/* */
+.ano-panel {
+    margin-bottom: 13px;
+    padding: 15px 20px;
+    background: #fefefe;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(255, 255, 255, 0.68);
+}
+
+.ano-panel > div {
+    margin: 15px 0 0;
+}
+
+.ano-panel h1, h2, h3 {
+    color: rgba(19, 50, 122, 0.58);
+    margin-bottom: 10px;
+}
+
+
+/*报表*/
+.chart-container {
+    border: 2px solid #fff;
+    background: aliceblue;
+    padding: 15px;
+    margin-bottom: 13px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 6px 0 rgba(0, 0, 0, .04);
+}
+
+.chart-container h2 {
+    display: inline;
+    text-align: center;
+}
+
+.chart-panel {
+    max-width: 800px;
+    min-width: 450px;
+    max-height: 700px;
+    min-height: 300px;
+}
+
+
+/*抽屉*/
+.el-drawer {
+    background-color: #212529 !important;
+    padding: 20px;
+}
