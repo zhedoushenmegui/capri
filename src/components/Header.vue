@@ -79,8 +79,8 @@ export default {
 }
 
 #logo {
-  width: 140px;
-  height: 50px;
+  width: 124px;
+  height: 52px;
   float: left;
   margin-left: 20px;
   margin-right: 20px;

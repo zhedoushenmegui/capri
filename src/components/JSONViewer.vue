@@ -8,8 +8,6 @@
 </template>
 
 <script>
-    import RecmdBase from '~/page/recmd/Base'
-    import utils from "~/utils/utils";
     import JsonBeautify from "~/utils/beauty_json";
 
     export default {
@@ -21,9 +19,6 @@
             return {
                 text: []
             }
-        },
-        components: {
-            RecmdBase
         },
         created() {
             let a = JsonBeautify.jb(this.obj);
