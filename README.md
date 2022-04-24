@@ -2,6 +2,7 @@
 - 基于 [vue v2](https://cn.vuejs.org/v2/guide/)
 - 使用 [element UI](https://element.eleme.io/)
 - 其他仅使用普通js 和 css
+- demo 见 demo.png
 
 注意
 - 目的是为了快速搭起一个小网站, 比如说内部的配置平台;
